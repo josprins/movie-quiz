@@ -1,0 +1,123 @@
+@import 'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #88c5ff, #fcfcfc);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  color: $white;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.game-container {
+  max-width: 800px;
+  height: auto;
+  background-color: $primary;
+  border-radius: 25px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.25);
+  margin: 182px auto 0 auto;
+  padding-bottom: 30px;
+
+  h1 {
+    width: 266px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+    margin: 0 auto 0 auto;
+    padding: 24px 0;
+  }
+
+  .bottom-section {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.397);
+    padding-top: 25px;
+    font-size: 22px;
+
+    .score {
+      border: 5px solid $primary-focus;
+      border-radius: 15px;
+      padding: 16px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .question-box {
+      max-width: 300px;
+      margin-top: 35px;
+    }
+
+    .answer-container {
+      display: flex;
+      flex-direction: column;
+
+      .answer,
+      .start-btn {
+        border: 5px solid $primary-focus;
+        border-radius: 15px;
+        padding: 10px 16px;
+        width: 235px;
+        text-align: center;
+        background-color: $primary;
+        color: $white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+        margin: 0px 0 20px 0;
+
+        &:hover {
+          background-color: $primary-light;
+        }
+      }
+    }
+  }
+}
+
+.start-btn {
+  border: 5px solid $primary-focus;
+  border-radius: 15px;
+  padding: 10px 16px;
+  width: 235px;
+  text-align: center;
+  background-color: $primary;
+  color: $white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  margin: 10px auto;
+
+  &:hover {
+    background-color: $primary-light;
+  }
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h2 {
+    margin: 25px auto;
+  }
+}
+
+@import 'mediaqueries';
