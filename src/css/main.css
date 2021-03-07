@@ -219,13 +219,13 @@ body {
   }
   .game-container .bottom-section .answer-container .answer:hover,
   .game-container .bottom-section .answer-container .start-btn:hover {
-    background-color: #1577a1;
+    background-color: #0056a7;
   }
   .start-btn {
     width: 235px;
   }
   .start-btn:hover {
-    background-color: #1577a1;
+    background-color: #0056a7;
   }
   .game-over {
     width: 350px;
@@ -296,7 +296,7 @@ body {
   }
   .game-container .bottom-section .answer-container .answer:hover,
   .game-container .bottom-section .answer-container .start-btn:hover {
-    background-color: #1577a1;
+    background-color: #0056a7;
   }
   .start-btn {
     width: 235px;
