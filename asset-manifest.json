@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movie-quiz/static/css/main.f387c48e.chunk.css",
+    "main.css": "/movie-quiz/static/css/main.8efdb606.chunk.css",
     "main.js": "/movie-quiz/static/js/main.5a754ce8.chunk.js",
     "main.js.map": "/movie-quiz/static/js/main.5a754ce8.chunk.js.map",
     "runtime-main.js": "/movie-quiz/static/js/runtime-main.8b764c40.js",
@@ -8,13 +8,13 @@
     "static/js/2.231bd6b0.chunk.js": "/movie-quiz/static/js/2.231bd6b0.chunk.js",
     "static/js/2.231bd6b0.chunk.js.map": "/movie-quiz/static/js/2.231bd6b0.chunk.js.map",
     "index.html": "/movie-quiz/index.html",
-    "static/css/main.f387c48e.chunk.css.map": "/movie-quiz/static/css/main.f387c48e.chunk.css.map",
+    "static/css/main.8efdb606.chunk.css.map": "/movie-quiz/static/css/main.8efdb606.chunk.css.map",
     "static/js/2.231bd6b0.chunk.js.LICENSE.txt": "/movie-quiz/static/js/2.231bd6b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8b764c40.js",
     "static/js/2.231bd6b0.chunk.js",
-    "static/css/main.f387c48e.chunk.css",
+    "static/css/main.8efdb606.chunk.css",
     "static/js/main.5a754ce8.chunk.js"
   ]
 }
