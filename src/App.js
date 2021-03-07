@@ -27,16 +27,17 @@ function App() {
       setIndex(0)
       const inCorrect = data[0].incorrect_answers
       const correct = data[0].correct_answer
-      const allAnswers = [...inCorrect, correct]
+      const allAnswers = [...inCorrect, correct].sort(() => Math.random() - 0.5)
       const singleQuestion = data[0].question
       setAllAnswers(allAnswers)
       setQuestion(singleQuestion)
       setCorrectAnswer(correct)
+      setScore(0)
     } else {
       setIndex(index + 1)
       const inCorrect = data[index].incorrect_answers
       const correct = data[index].correct_answer
-      const allAnswers = [...inCorrect, correct]
+      const allAnswers = [...inCorrect, correct].sort(() => Math.random() - 0.5)
       const singleQuestion = data[index].question
       setAllAnswers(allAnswers)
       setQuestion(singleQuestion)
